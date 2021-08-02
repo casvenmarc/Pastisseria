@@ -78,7 +78,7 @@ export function Homeesp() {
             fontFamily: "Nunito",
           }}
         >
-          <h2>Horario:</h2>
+          <h2>Horario (Agosto 2021):</h2>
         </div>
         <div
           style={{
@@ -88,7 +88,7 @@ export function Homeesp() {
             fontFamily: "Nunito",
           }}
         >
-          Lunes de 07:00h a 13:30h.
+          Lunes Cerrado.
           <br />
           Martes de 07:00h a 13:30h.
           <br />

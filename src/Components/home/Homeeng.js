@@ -77,7 +77,7 @@ export function Homeeng() {
             fontFamily: "Nunito",
           }}
         >
-          <h2>Schedule:</h2>
+          <h2>Schedule (August 2021):</h2>
         </div>
         <div
           style={{
@@ -87,7 +87,7 @@ export function Homeeng() {
             fontFamily: "Nunito",
           }}
         >
-          Monday from 07:00 a.m. to 13:30 p.m.
+          Monday Closed
           <br />
           Tuesday from 07:00 a.m. to 13:30 p.m.
           <br />

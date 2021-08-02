@@ -79,7 +79,7 @@ export function Home() {
             fontFamily: "Nunito",
           }}
         >
-          <h2>Horari:</h2>
+          <h2>Horari (Agost 2021):</h2>
         </div>
         <div
           style={{
@@ -89,7 +89,7 @@ export function Home() {
             fontFamily: "Nunito",
           }}
         >
-          Dilluns de 07:00h a 13:30h.
+          Dilluns Tancat.
           <br />
           Dimarts de 07:00h a 13:30h.
           <br />
