@@ -94,16 +94,14 @@ function FOOTERDECIDER() {
   }
 }
 
-
 ///////////////////////////////////////////////////////////////
-
+ReactGA.initialize('UA-173493498-1');
+ReactGA.pageview('/app')
+  
 class App extends Component {
 
   render() {
-    useEffect(() => {
-      ReactGA.initialize('UA-173493498-1');
-    }, []);
-    ReactGA.pageview('/app')
+
     return (
       <div>
          
