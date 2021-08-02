@@ -89,15 +89,15 @@ export function Homeeng() {
         >
           Monday Closed
           <br />
-          Tuesday from 07:00 a.m. to 13:30 p.m.
+          Tuesday from 07:00 a.m. to 15.00 p.m.
           <br />
-          Wednesday from 07:00 a.m. to 19:30 p.m.
+          Wednesday from 07:00 a.m. to 15.00 p.m.
           <br />
-          Thursday from 07:00 a.m. to 19:30 p.m.
+          Thursday from 07:00 a.m. to 15.00 p.m.
           <br />
-          Friday from 07:00 a.m. to 19:30 p.m.
+          Friday from 07:00 a.m. to 15.00 p.m.
           <br />
-          Saturday from 07:00 a.m. to 19:30 p.m.
+          Saturday from 07:00 a.m. to 15.00 p.m.
           <br />
           Sunday from 07:00 a.m. to 14:30p.m.
           <br />

@@ -90,15 +90,15 @@ export function Homeesp() {
         >
           Lunes Cerrado.
           <br />
-          Martes de 07:00h a 13:30h.
+          Martes de 07:00h a 15:00h.
           <br />
-          Miércoles de 07:00h a 19:30h.
+          Miércoles de 07:00h a 15:00h.
           <br />
-          Jueves de 07:00h a 19:30h.
+          Jueves de 07:00h a 15:00h.
           <br />
-          Viernes de 07:00h a 19:30h.
+          Viernes de 07:00h a 15:00h.
           <br />
-          Sábado de 07:00h a 19:30h.
+          Sábado de 07:00h a 15:00h.
           <br />
           Domingo de 07:00h a 14:30h.
           <br />

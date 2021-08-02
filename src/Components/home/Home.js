@@ -91,15 +91,15 @@ export function Home() {
         >
           Dilluns Tancat.
           <br />
-          Dimarts de 07:00h a 13:30h.
+          Dimarts de 07:00h a 15:00h.
           <br />
-          Dimecres de 07:00h a 19:30h.
+          Dimecres de 07:00h a 15:00h.
           <br />
-          Dijous de 07:00h a 19:30h.
+          Dijous de 07:00h a 15:00h.
           <br />
-          Divendres de 07:00h a 19:30h.
+          Divendres de 07:00h a 15:00h.
           <br />
-          Dissabte de 07:00h a 19:30h.
+          Dissabte de 07:00h a 15:00h.
           <br />
           Diumenge de 07:00h a 14:30h.
           <br />
