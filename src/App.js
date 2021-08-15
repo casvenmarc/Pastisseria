@@ -1,7 +1,6 @@
 import React, { Component, useState, useContext } from "react";
 import "./App.css";
 import history from "./history";
-import ReactGA from 'react-ga';
 
 import Header from "./Components/header/Header";
 import Headeresp from "./Components/header/Headeresp";

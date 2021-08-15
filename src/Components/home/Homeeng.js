@@ -20,14 +20,14 @@ export function Homeeng() {
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/slide_1.png")}
+              src={require("./images/slide_1.jpg")}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/tenda.png")}
+              src={require("./images/tenda.jpg")}
               alt="Second slide"
               style={{ top: "50px" }}
             />
@@ -35,7 +35,7 @@ export function Homeeng() {
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/past.png")} //alt:3250px
+              src={require("./images/past.jpg")} //alt:3250px
               alt="Third slide"
               style={{ top: "50px" }}
             />
@@ -85,8 +85,19 @@ export function Homeeng() {
             marginLeft: "20px",
             fontSize: "16px",
             fontFamily: "Nunito",
-          }}
-        >
+          }}>
+          CLOSED for HOLIDAYS from August 16 th to 23 rd (inclusive).
+          <br />
+          <u>Rest of the days:</u>
+          <br />
+          
+            <div
+            style={{
+              marginTop: "5px",
+              marginLeft: "5px",
+              fontSize: "16px",
+              fontFamily: "Nunito",
+            }}>
           Monday Closed
           <br />
           Tuesday from 07:00 a.m. to 15.00 p.m.
@@ -101,6 +112,7 @@ export function Homeeng() {
           <br />
           Sunday from 07:00 a.m. to 14:30p.m.
           <br />
+          </div>  
         </div>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>

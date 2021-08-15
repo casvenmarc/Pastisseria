@@ -20,14 +20,14 @@ export function Homeesp() {
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/slide_1.png")}
+              src={require("./images/slide_1.jpg")}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/tenda.png")}
+              src={require("./images/tenda.jpg")}
               alt="Second slide"
               style={{ top: "50px" }}
             />
@@ -35,7 +35,7 @@ export function Homeesp() {
           <Carousel.Item style={{ marginTop: "50px" }}>
             <img
               className="d-block w-100"
-              src={require("./images/past.png")} //alt:3250px
+              src={require("./images/past.jpg")} //alt:3250px
               alt="Third slide"
               style={{ top: "50px" }}
             />
@@ -87,7 +87,18 @@ export function Homeesp() {
             fontSize: "16px",
             fontFamily: "Nunito",
           }}
-        >
+        > CERRADO por VACACIONES del 16 al 23 de Agosto (ambos inclusive).
+          <br />
+          <u>El resto de los días:</u>
+          <br />
+          
+         <div
+            style={{
+              marginTop: "5px",
+              marginLeft: "5px",
+              fontSize: "16px",
+              fontFamily: "Nunito",
+            }}>
           Lunes Cerrado.
           <br />
           Martes de 07:00h a 15:00h.
@@ -102,6 +113,7 @@ export function Homeesp() {
           <br />
           Domingo de 07:00h a 14:30h.
           <br />
+          </div>
         </div>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
