@@ -1,4 +1,5 @@
 import React from "react";
+import {useState} from "react";
 import Grid from "@material-ui/core/Grid";
 import { CardMedia } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
@@ -167,14 +168,14 @@ export default function PersistentDrawerRight() {
             <MenuIcon />
           </IconButton>
           <Drawer
-            variant="persistent"
+            //variant="persistent"
             anchor="right"
             classes={{
               paper: clsx(classes.drawerPaper),
             }}
             open={open}
           >
-            <div className={classes.drawerHeader}>
+             <div className={classes.drawerHeader}>
               <IconButton
                 className={classes.ButtonArrow}
                 onClick={handleDrawerClose}
@@ -200,6 +201,7 @@ export default function PersistentDrawerRight() {
                   onClick={() => {
                     history.push("/Products/Productes")
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -220,6 +222,7 @@ export default function PersistentDrawerRight() {
                   onClick={() => {
 
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -239,6 +242,7 @@ export default function PersistentDrawerRight() {
                   onClick={() => {
       
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -258,6 +262,7 @@ export default function PersistentDrawerRight() {
                   onClick={() => {
  
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -298,6 +303,7 @@ export default function PersistentDrawerRight() {
                     setFootereng(0);
 
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemText primary="Català" />
@@ -317,6 +323,7 @@ export default function PersistentDrawerRight() {
                     setFootereng(0);
 
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                   style={{ color: grey[50] }}
                   className={classes.List}
@@ -337,6 +344,7 @@ export default function PersistentDrawerRight() {
                     setFootereng(1);
 
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                   style={{ color: grey[50] }}
                   className={classes.List}

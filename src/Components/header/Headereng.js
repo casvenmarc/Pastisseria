@@ -168,7 +168,7 @@ export default function PersistentDrawerRight() {
             <MenuIcon />
           </IconButton>
           <Drawer
-            variant="persistent"
+            //variant="persistent"
             anchor="right"
             classes={{
               paper: clsx(classes.drawerPaper),
@@ -200,6 +200,7 @@ export default function PersistentDrawerRight() {
                   onClick={() => {
                     history.push("/Products/Producteseng")
                     window.scrollTo(0, 0)
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -217,6 +218,7 @@ export default function PersistentDrawerRight() {
                   style={{ color: grey[50] }}
                   className={classes.List}
                   onClick={() => {
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemIcon style={{ color: grey[50] }}>
@@ -234,6 +236,7 @@ export default function PersistentDrawerRight() {
                   style={{ color: grey[50] }}
                   className={classes.List}
                   onClick={() => {
+                    handleDrawerClose()
  
                   }}
                 >
@@ -252,6 +255,7 @@ export default function PersistentDrawerRight() {
                   style={{ color: grey[50] }}
                   className={classes.List}
                   onClick={() => {
+                    handleDrawerClose()
 
                   }}
                 >
@@ -292,6 +296,7 @@ export default function PersistentDrawerRight() {
                     setFootercat(1);
                     setFooteresp(0);
                     setFootereng(0);
+                    handleDrawerClose()
                   }}
                 >
                   <ListItemText primary="Català" />
@@ -309,6 +314,7 @@ export default function PersistentDrawerRight() {
                     setFootercat(0);
                     setFooteresp(1);
                     setFootereng(0);
+                    handleDrawerClose()
                   }}
                   style={{ color: grey[50] }}
                   className={classes.List}
@@ -328,6 +334,7 @@ export default function PersistentDrawerRight() {
                     setFootercat(0);
                     setFooteresp(0);
                     setFootereng(1);
+                    handleDrawerClose()
                   }}
                   style={{ color: grey[50] }}
                   className={classes.List}
