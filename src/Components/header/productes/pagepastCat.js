@@ -75,6 +75,9 @@ import ccorona from "./imgpast/ccorona.jpg";
 import gmango from "./imgpast/gmango.jpg";
 import gfruits from "./imgpast/gfruits.jpg";
 import gmandarina from "./imgpast/gmandarina.jpg";
+import gxoco from "./imgpast/gelat_xoco.jpg";
+import gvainilla from "./imgpast/gelat_vainilla.jpg";
+import gllimona from "./imgpast/gelat_llimona.jpg";
 
 
 //import { OpenContext } from "../hooks";
@@ -2102,6 +2105,98 @@ export function pagepastCat() {
 
  {/*/////////////////////////////FILA 1////////////////////////////////////// */}
 
+      {/*G VAINILLA*/}
+      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <center>
+            <img
+            src={gvainilla}
+            style={{ alignSelf: "center" }}
+            width="250px" 
+            height="250px"
+            />
+            </center>
+        </CardContent>
+          
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+         <center>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+             Tarrina de vainilla
+
+            </p>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            Llet, aigua, sucre, vainilla. Sense gluten.
+            </p>
+            </center>
+          </CardContent>
+        </Card>
+        </Grid>
+{/*G XOCO*/}
+      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      
+        <CardContent style={{padding:"0px"}}>
+          <center>
+            <img
+            className="IND"
+            src={gxoco}
+            style={{ alignSelf: "center" }}
+            width="250px" 
+            height="250px"
+            />
+            </center>
+        </CardContent>
+          
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+            <center>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+             Tarrina de xocolata.
+            </p>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+             Llet, aigua, sucre, cacao. Sense gluten.
+            </p>
+            </center>
+          </CardContent>
+        </Card>
+        </Grid>
+
+
+        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+
+      {/*G LLIMONA*/}
+        <CardContent style={{padding:"0px"}} >
+          <center>
+            <img
+            className="IND"
+            src={gllimona}
+            width="250px" 
+            height="250px"
+            marginLeft= "auto"
+            marginRight= "auto"
+            />
+            </center>
+        </CardContent>
+          
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+            <center>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+             Tarrina de llimona
+            </p>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+             Llet, aigua, sucre, llimona. Sense gluten.
+            </p>
+            </center>
+          </CardContent>
+        </Card>
+        
+        </Grid>
+
+
+ {/*/////////////////////////////FILA 2////////////////////////////////////// */}
+
       {/*G MANGO*/}
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
@@ -2120,7 +2215,7 @@ export function pagepastCat() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Gelat de mandarina
+             Tarrina de mandarina
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>

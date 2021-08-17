@@ -18,7 +18,7 @@ import Homeeng from "./Components/home/Homeeng";
 
 import PagepastCat from "./Components/header/productes/pagepastCat";
 import PagepastEsp from "./Components/header/productes/pagepastEsp";
-import PagepastEng from "./Components/header/productes/pagepastEsp";
+import PagepastEng from "./Components/header/productes/pagepastEng";
 
 import PagebrioixCat from "./Components/header/productes/pagebrioixCat";
 import PagebrioixEsp from "./Components/header/productes/pagebrioixEsp";
