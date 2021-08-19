@@ -1545,7 +1545,7 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"45px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-35px"}}>
              Pastís de llimona
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
@@ -1600,7 +1600,7 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"25px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-8px"}}>
              Pastís de nata-trufa
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>

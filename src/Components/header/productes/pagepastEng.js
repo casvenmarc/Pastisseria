@@ -374,7 +374,7 @@ export function pagepastEng() {
             Sacher mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Gluten free. Base: Cacao sponge cake. Interior: Red berries jam.
+            Gluten free. Base: Cocoa sponge cake. Interior: Red berries jam.
             </p>
             </center>
           </CardContent>
@@ -405,7 +405,7 @@ export function pagepastEng() {
             Dried fruit mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Gluten free. Base: Cacao sponge cake. Interior: Praline.
+            Gluten free. Base: Cocoa sponge cake. Interior: Praline.
             </p>
             </center>
           </CardContent>
@@ -527,10 +527,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Chocolate (cacao 75%) mousse
+            Chocolate (75% cocoa) mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Gluten free. Base: Cacao sponge cake.. Interior: Toffee.
+            Gluten free. Base: Cocoa sponge cake.. Interior: Toffee.
             </p>
             </center>
           </CardContent>
@@ -558,7 +558,7 @@ export function pagepastEng() {
             Tiramisu mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Gluten free. Base: Cacao sponge cake. Interior: Coffee.
+            Gluten free. Base: Cocoa sponge cake. Interior: Coffee.
             </p>
             </center>
           </CardContent>
@@ -675,7 +675,7 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"20px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Sara
+            Burned almond torte (<i>Sara</i>)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
             Contains gluten and dried fruits. Base: White sponge cake. Interior: pastry butter.
@@ -830,7 +830,7 @@ export function pagepastEng() {
              <i>Búlgaro</i> (Small swiss roll)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Dark chocolate, truffle and cacao sponge cake. Contains gluten.
+            Dark chocolate, truffle and cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -916,10 +916,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de crema catalana
+            Catalan cream mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Contiene gluten y frutos secos (carquiñoli). Bizcocho blanco.
+            Contains gluten and dried fruits (<i>carquinyoli</i>). White sponge cake.
             </p>
             </center>
           </CardContent>
@@ -946,10 +946,10 @@ export function pagepastEng() {
         <CardContent style={{padding:"0px" , marginTop:"-110px"}}>
          <center>
             <p style={{marginTop: "100px", fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de limón y frutos rojos
+            Lemon and red berries mousse
            </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Contiene gluten. Bizcocho blanco y de cacao.
+            Contains gluten. White and cocoa sponge cake.
             </p>
             </center>
         </CardContent>
@@ -974,10 +974,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de manzana y mango
+            Apple and mango mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho blanco y de cacao. Contiene gluten.
+            White and cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1003,10 +1003,10 @@ export function pagepastEng() {
         <CardContent style={{padding:"10px" , marginTop:"-30px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Tarta selva negra
+            Black forest cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten y frutos secos.
+            Cream, red berries jam. Cocoa sponge cake. Contains gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -1030,10 +1030,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de mandarina, limón y mojito.
+            Tangerine, lemon and mojito mousse.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de mojito y de cacao. Contiene gluten.
+            Mojito and cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1059,10 +1059,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Barra de fresa
+            Strawberry torte
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata de fresa. Bizcocho blanco. Contiene gluten.            
+            Strawberry cream, white sponge cake. Contains gluten.            
             </p>
             </center>
           </CardContent>
@@ -1086,10 +1086,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Barra de turrón
+            Nougat torte
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata de turrón. Bizcocho de cacao. Contiene gluten y frutos secos.
+            Nougat cream, cocoa sponge cake. Contains gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -1113,10 +1113,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"5px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Mousse de frutos rojos
+            Red berries mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho blanco. Contiene gluten.          
+            White sponge cake. Contains gluten.          
             </p>
             </center>
           </CardContent>
@@ -1140,10 +1140,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"-13px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Mousse de piña y coco
+            Pineapple and coco mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho blanco. Contiene gluten.
+            White sponge cake. Contains gluten.  
             </p>
             </center>
           </CardContent>
@@ -1167,10 +1167,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-              Mousse de tiramisú
+              Tiramisu mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de cacao y de cafè. Contiene gluten.         
+            Coffee and white sponge cake. Contains gluten.         
             </p>
             </center>
           </CardContent>
@@ -1194,10 +1194,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Mousse de limón
+            Lemon mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Yema, bizcocho de cítricos y de cacao. Contiene gluten.
+            Yolk, citrus and cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1221,10 +1221,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Mousse de tres chocolates
+            Triple chocolate mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Mousse de chocolate blanco y  con leche. Chocolate negro. Bizcocho blanco. Contiene gluten.         
+            White, milk and dark chocolate mousse. White sponge cake. Contains gluten.         
             </p>
             </center>
           </CardContent>
@@ -1248,10 +1248,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Barra de trufa con crujiente de chocolate
+            Truffle cream torte with crunchy chocolate
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de cacao. Contiene gluten.
+            Cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1275,10 +1275,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-              Sant Marc
+              <i>Saint Marc</i>
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Trufa, nata y yema quemada. Bizcocho blanco. Contiene gluten.       
+            Truffle, cream and burned yolk. White sponge cake. Contains gluten.       
             </p>
             </center>
           </CardContent>
@@ -1302,10 +1302,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Mousse de pera y canela            
+             Pear and cinnamon mousse            
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho blanco. Contiene gluten.
+            White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1329,10 +1329,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-              Massini
+              <i>Massini</i>
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata, trufa y yema quemada. Bizcocho de cacao. Contiene gluten.
+            Cream, truffle, burned egg yolk. Cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1360,7 +1360,7 @@ export function pagepastEng() {
               Sacher           
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Trufa, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten.
+            Truffle, red berries jam. Cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1384,10 +1384,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"25px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Pastel de fresa
+            Strawberry cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata, Bizcocho blanco. Contiene gluten.
+            Strawberry cream. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1412,10 +1412,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Mousse de chocolate 75%           
+             75% chocolate mousse.           
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de cacao. Contiene gluten.
+            Cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1439,10 +1439,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"20px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
-            Pastel de trufa y virutas
+            Truffle with chocholate curls
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de cacao. Contiene gluten.
+            Cocoa sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1466,10 +1466,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Mousse de yogur griego          
+            Greek yogurt mousse          
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Bizcocho de mora. Coulis de mora. Contiene gluten.
+            Blackberry sponge cake, blackberry coulis. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1493,10 +1493,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"20px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Pastel de nata
+            Cream cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata, bizcocho blanco. Contiene gluten.
+            Cream, white sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1520,10 +1520,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Pastel de nata quemada          
+            Burned cream cake          
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata, yema quemada, bizcocho blanco. Contiene gluten.
+            Cream, burned egg yolk, white sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1546,11 +1546,11 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"45px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Pastel de limón
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-45px"}}>
+            Lemon cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata de limón, yema quemada, bizcocho de cítircos. Contiene gluten.
+            Lemon cream, burned egg yolk, citrus sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1574,11 +1574,11 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Pastel de turrón       
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-6px"}}>
+             Nougat cake      
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten y frutos secos.
+             Nougat cream, burned egg yolk, white sponge cake. Contains gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -1601,11 +1601,11 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"25px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Pastel de nata-trufa
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-8px"}}>
+            Truffle-cream cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Virutas de chocolate, bizcocho blanco. Contiene gluten.
+             Chocolate shavings, white sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1630,10 +1630,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Sara     
+             Burned almond torte (<i>Sara</i>)     
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Bizcocho blanco. Interior: mantequilla pastelera. Contiene gluten y frutos secos.
+             Contains gluten and dried fruits. Base: White sponge cake. Interior: pastry butter.
             </p>
             </center>
           </CardContent>
@@ -1690,10 +1690,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de gitano, "tigretón"
+            <i>Tigretón</i> (Swiss roll cake)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Chocolate, nata bizcocho de cacao. Contiene gluten.
+            Chocolate, cream. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1717,10 +1717,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de turrón quemada
+             Burned nougat swiss roll
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten i frutos secos.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
+            Nougat cream, burned yolk, sponge cake. Contains gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -1746,11 +1746,11 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de crema quemada
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"0px"}}>
+            Burned custard swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Yema quemada, bizcocho blanco. Contiene gluten.
+            Burned egg yolk. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1773,11 +1773,11 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de crema
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"0px"}}>
+             Custard swiss roll
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Azúcar glass, bizcocho blanco. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
+            Icing sugar. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1802,10 +1802,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de nata quemado
+            Burned cream swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Yema quemada, bizcocho blanco. Contiene gluten.
+            Burned egg yolk. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1829,10 +1829,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de nata
+             Cream swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Azúcar glass, bizcocho blanco. Contiene gluten.
+            Icing sugar. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1857,10 +1857,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Brazo de trufa quemado
+            Burned truffle swiss roll.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Yema quemada, bizcocho blanco. Contiene gluten.
+            Burned egg yolk. White sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
