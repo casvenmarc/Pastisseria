@@ -343,10 +343,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"-1px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de frutos del bosque
+            Red berries mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco. Interior: mermelada.
+            Gluten free. Base: White sponge cake. Interior: jam.
             </p>
             </center>
           </CardContent>
@@ -371,10 +371,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de Sacher
+            Sacher mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho de cacao. Interior: mermelada de frutos rojos.
+            Gluten free. Base: Cacao sponge cake. Interior: Red berries jam.
             </p>
             </center>
           </CardContent>
@@ -402,10 +402,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de frutos secos
+            Dried fruit mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho de cacao. Interior: Praliné.
+            Gluten free. Base: Cacao sponge cake. Interior: Praline.
             </p>
             </center>
           </CardContent>
@@ -438,10 +438,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de crema catalana
+            Catalan cream mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco. Interior: Dulce de leche.
+            Gluten free. Base: White sponge cake. Interior: <i>Dulce de leche</i>.
             </p>
             </center>
           </CardContent>
@@ -467,10 +467,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de yogur griego
+            Greek yogurt mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco. Interior: Mora.
+            Gluten free. Base: White sponge cake. Interior: Blackberry jam.
             </p>
             </center>
           </CardContent>
@@ -497,10 +497,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de manzana y mango
+            Apple and mango mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco.
+            Gluten free. Base: White sponge cake.
             </p>
             </center>
           </CardContent>
@@ -527,10 +527,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de choc. 75% de cacao
+            Chocolate (cacao 75%) mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Sin gluten. Bizcocho de cacao. Interior: Toffee.
+            Gluten free. Base: Cacao sponge cake.. Interior: Toffee.
             </p>
             </center>
           </CardContent>
@@ -555,10 +555,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de tiramisú
+            Tiramisu mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho de cacao. Interior: Café.
+            Gluten free. Base: Cacao sponge cake. Interior: Coffee.
             </p>
             </center>
           </CardContent>
@@ -586,10 +586,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de limón
+            Lemon and passion fruit mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco. Interior: Maracuyá.
+            Gluten free. Base: White sponge cake. Interior: Passion fruit.
             </p>
             </center>
           </CardContent>
