@@ -1918,10 +1918,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Banda de fruta
+             Fresh fruit tart
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Hojaldre, crema, fruta de temporada. Contiene gluten.
+            Puff pastry, custard, fresh fruit. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1945,11 +1945,11 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Lionesas de nata, trufa o crema
+             Cream, truffle and custard filled profiteroles
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Pasta choux. Sin gluten.
+            Choux pastry. Gluten free.
             </p>
             </center>
           </CardContent>
@@ -1975,11 +1975,11 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Trenza de brioche rellena de nata y trufa
+            Cream and truffle filled brioche plait
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -2003,11 +2003,11 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Repostería
+            Confectionary
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Piezas variadas. Pueden contener gluten y frutos secos.
+            Miscellaneous units. May contain gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -2033,10 +2033,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Corona de nata
+             Cream filled puff pastry crown
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Azúcar glass, hojaldre. Contiene gluten.
+            Icing sugar, puff pastry. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -2060,11 +2060,11 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Corona de crema
+            Custard filled puff pastry crown
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Azúcar glass, hojaldre. Contiene gluten.
+            Icing sugar, puff pastry. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -2156,7 +2156,7 @@ export function pagepastEng() {
              Chocolate ice cream.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Milk, water, sugar, cacao. Gluten free.
+            Milk, water, sugar, cocoa. Gluten free.
             </p>
             </center>
           </CardContent>
@@ -2213,12 +2213,12 @@ export function pagepastEng() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Tarrina de mandarina
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"8.5px"}}>
+            Mandarin ice cream
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Leche, agua, azúcar, fruta fresca. Sin gluten.
+            Milk, water, sugar, mandarin. Gluten free.
             </p>
             </center>
           </CardContent>
@@ -2243,10 +2243,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Tarrina de frutos rojos.
+            Red berries ice cream
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Leche, agua, azúcar, fruta fresca. Sin gluten.
+            Milk, water, sugar, red berries. Gluten free.
             </p>
             </center>
           </CardContent>
@@ -2274,10 +2274,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Tarrina de mango
+            Mango ice cream
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Leche, agua, azúcar, fruta fresca. Sin gluten.
+            Milk, water, sugar, mango. Gluten free.
             </p>
             </center>
           </CardContent>

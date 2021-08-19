@@ -1716,7 +1716,7 @@ export function pagepastEsp() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Brazo de turrón quemada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -1773,7 +1773,7 @@ export function pagepastEsp() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"3px"}}>
             Brazo de crema
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -2213,7 +2213,7 @@ export function pagepastEsp() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"8px"}}>
             Tarrina de mandarina
 
             </p>
