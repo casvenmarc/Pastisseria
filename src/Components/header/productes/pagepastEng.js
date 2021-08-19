@@ -616,10 +616,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Mousse de piña colada
+            <i>Piña colada</i> mousse
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Sin gluten. Bizcocho blanco.
+            Gluten free. Base: White sponge cake.
             </p>
             </center>
           </CardContent>
@@ -644,10 +644,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pastelillo de catanias
+            <i>Catanies</i> cake
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. Bizcocho blanco. Contiene frutos secos. Interior: Crema de catanias.
+            Gluten free. Base: White sponge cake. Contains dried fruits. Interior: <i>Catanies</i> cream.
             </p>
             </center>
           </CardContent>
@@ -678,7 +678,7 @@ export function pagepastEng() {
              Sara
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten y frutos secos. Bizcocho blanco. Interior: mantequilla pastelera.
+            Contains gluten and dried fruits. Base: White sponge cake. Interior: pastry butter.
             </p>
             </center>
           </CardContent>
