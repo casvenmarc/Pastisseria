@@ -706,10 +706,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"2px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Bracito de nata quemado
+            Cream and burned yolk small swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Contiene gluten. 
+            Contains gluten. 
             </p>
             </center>
           </CardContent>
@@ -734,10 +734,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"8px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Bracito de trufa quemado
+            Truffle cream and burned yolk small swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten. 
+            Contains gluten. 
             </p>
             </center>
           </CardContent>
@@ -765,10 +765,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"15px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Bracito de turrón quemado
+            Nougat and burned yolk small swiss roll
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten y frutos secos.
+            Contains gluten and dried fruits.
             </p>
             </center>
           </CardContent>
@@ -795,11 +795,11 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Tocinillo de cielo
+            <i>Tocinillo de cielo</i>
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Sin gluten. 
+            Gluten free. 
             </p>
             </center>
           </CardContent>
@@ -827,10 +827,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Búlgaro
+             <i>Búlgaro</i> (Small swiss roll)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Chocolate negro, trufa y bizcocho de cacao. Contiene gluten.
+            Dark chocolate, truffle and cacao sponge cake. Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -889,10 +889,10 @@ export function pagepastEng() {
           <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Músic
+              <i>Músic</i>
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
-            Contiene gluten y frutos secos. Bizcocho blanco. Interior. Chocolate.
+            Contains gluten and dried fruits. White sponge cake, chocolate.
             </p>
             </center>
           </CardContent>
