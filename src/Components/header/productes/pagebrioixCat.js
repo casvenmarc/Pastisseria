@@ -584,7 +584,7 @@ export function pagebrioixCat() {
              Croissant bikini
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Interior: mantega, pernil dolç i formatge. Conté gluten.
+            Interior: pernil dolç i formatge. Conté gluten.
             </p>
             </center>
           </CardContent>

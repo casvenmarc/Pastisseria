@@ -134,91 +134,175 @@ const estilos = makeStyles({
   },
 
   rooty: {
-   minWidth: 420,
+   //minWidth: 420,
    height: 450,
   },
+
+  BRIOIX: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"340px" ,
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"340px" ,
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "300px",
+      height:"260px",
+      marginLeft: "-5px",
+      marginRight: "auto"
+    },
+
+    borderRadius: 0,
+  },
+
+  BRIOIX_v2: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"340px" ,
+      height:"230px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"340px" ,
+      height:"230px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "300px",
+      height:"200px",
+      marginLeft: "-5px",
+      marginRight: "auto"
+    },
+
+    borderRadius: 0,
+  },
+
+  PA: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"520px" ,
+      height:"320px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"520px" ,
+      height:"320px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "420px",
+      height:"280px",
+      marginLeft: "-25px",
+      marginRight: "auto"
+    },
+
+    borderRadius: 0,
+  }
 
 });
 
 export function pagebrioixEsp() {
-  const classes = estilos();
-
-  return (
-    <Grid container style={{width: "100%" }}>
-
-      
-      <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
-         <p className={classes.l1}> 
-              <hr 
-              style={{
-                color: '#3B0404',
-                backgroundColor: '#3B0404',
-                height: .1,
-                borderColor : '#3B0404'
-              }}/>
-         </p>
-      </Grid>
-
-      <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
-        <Card
-          //className={classes.root}
-          elevation={0}
-          style={{
-            textAlign: "center",
-            backgroundColor: '#ffffff'
-          }}
-        >
-          <p className={classes.subtitol} style={{backgroundColor: '#ffffff'}}>
-              Nuestros panes y productos artesanales de elaboración propia
-          </p>
-        </Card>
-      </Grid>
-
-      <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
-        <Card
-          className={classes.root}
-          elevation={0}
-          style={{
-            textAlign: "center",
-            backgroundColor: '#ffffff'
-          }}
-        >
-          <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-            <Link to="pagebrioixEsp#Ind" style={{ textDecoration: "none" }} className={classes.a}> Bollería</Link>
-          </p>
-        </Card>
-      </Grid>
-
-      <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
-        <Card
-          className={classes.root}
-          elevation={0}
-          style={{
-            textAlign: "center",
-            backgroundColor: '#ffffff'
-          }}
-        >
-          <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-          <Link to="pagebrioixEsp#Past" style={{ textDecoration: "none" }} className={classes.a}> Panes artesanales</Link>
-
-          </p>
-        </Card>
-      </Grid>
-
-      <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
-        <Card
-          className={classes.root}
-          elevation={0}
-          style={{
-            textAlign: "center",
-            backgroundColor: '#ffffff'
-          }}
-        >
-          <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-          <Link to="pagebrioixEsp#Bra" style={{ textDecoration: "none" }} className={classes.a}> Pastas de té</Link>
-          </p>
-        </Card>
-      </Grid>
+    const classes = estilos();
+  
+    return (
+      <Grid container style={{width: "100%" }}>
+  
+        
+        <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
+           <p className={classes.l1}> 
+                <hr 
+                style={{
+                  color: '#3B0404',
+                  backgroundColor: '#3B0404',
+                  height: .1,
+                  borderColor : '#3B0404'
+                }}/>
+           </p>
+        </Grid>
+  
+        <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
+          <Card
+            //className={classes.root}
+            elevation={0}
+            style={{
+              textAlign: "center",
+              backgroundColor: '#ffffff'
+            }}
+          >
+            <p className={classes.subtitol} style={{backgroundColor: '#ffffff'}}>
+                Nuestros panes y productos artesanales de elaboración propia
+            </p>
+          </Card>
+        </Grid>
+  
+        <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
+          <Card
+            className={classes.root}
+            elevation={0}
+            style={{
+              textAlign: "center",
+              backgroundColor: '#ffffff'
+            }}
+          >
+            <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
+              <Link to="pagebrioixEsp#Ind" style={{ textDecoration: "none" }} className={classes.a}> Bollería</Link>
+            </p>
+          </Card>
+        </Grid>
+  
+        <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
+          <Card
+            className={classes.root}
+            elevation={0}
+            style={{
+              textAlign: "center",
+              backgroundColor: '#ffffff'
+            }}
+          >
+            <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
+            <Link to="pagebrioixEsp#Past" style={{ textDecoration: "none" }} className={classes.a}> Panes artesanales</Link>
+  
+            </p>
+          </Card>
+        </Grid>
+  
+        <Grid item xs={12} sm={12} md={4} style={{backgroundColor: '#ffffff'}}>
+          <Card
+            className={classes.root}
+            elevation={0}
+            style={{
+              textAlign: "center",
+              backgroundColor: '#ffffff'
+            }}
+          >
+            <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
+            <Link to="pagebrioixEsp#Bra" style={{ textDecoration: "none" }} className={classes.a}> Pastas de té</Link>
+            </p>
+          </Card>
+        </Grid>
 
 {/*/////////////////////////////linea////////////////////////////////////// */}
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
@@ -253,7 +337,7 @@ export function pagebrioixEsp() {
      {/*/////////////////////////////FILA 1////////////////////////////////////// */}
 
       {/*BRETZEL*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
@@ -261,8 +345,7 @@ export function pagebrioixEsp() {
             <img
             src={bretzel}
             style={{ alignSelf: "center" }}
-            width="340px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -280,24 +363,23 @@ export function pagebrioixEsp() {
         </Card>
         </Grid>
       {/*BRETZEL XOCO NEGRE*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"50px",marginTop:"-5px"}}>
           <center>
             <img
             className="IND"
             src={bret_xoc_negre}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-5px"}}>
              Bretzel de chocolate negro.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -309,7 +391,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BRETZEL XOCO LLET*/}
@@ -318,10 +400,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={bret_xoc_llet}
-            width="350px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -348,7 +427,7 @@ export function pagebrioixEsp() {
 
 
 {/*BRETZEL XOC BLANCA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"2px"}}>
@@ -356,19 +435,18 @@ export function pagebrioixEsp() {
             <img
             src={bret_xoc_blanc}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
               Bretzel de chocolate blanco
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Relleno de cabello de angel. Contiene gluten.
+            Relleno de cabello de angel. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -376,7 +454,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 {/*CROISSANT*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}} >
@@ -385,8 +463,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={croissant}
             style={{ alignSelf: "center" }}
-            width="360px" 
-            height="230px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -405,7 +482,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 {/*CROISSANT NEGRE*/}
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}}>
@@ -413,18 +490,15 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={croissant_negre}
-            width="350px" 
-            height="220px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-40px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán de chocolate negro
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
+             Cruasán de chocolate negro.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
              Interior: chocolate. Contiene gluten.
@@ -437,7 +511,7 @@ export function pagebrioixEsp() {
       {/*/////////////////////////////FILA 3////////////////////////////////////// */}
 
       {/*CROISSANT LLET*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
@@ -445,16 +519,15 @@ export function pagebrioixEsp() {
             <img
             src={croissant_llet}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="200px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-70px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Cruasán de chocolate con leche.
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
+              Cruasán de chocolate con leche
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
               Interior: chocolate. Contiene gluten.
@@ -464,7 +537,7 @@ export function pagebrioixEsp() {
         </Card>
         </Grid>
 {/*CROISSANT BLANC*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}}>
@@ -473,15 +546,14 @@ export function pagebrioixEsp() {
             className="IND"
             src={croissant_blanc}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="200px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
              Cruasán de chocolate blanco
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -493,7 +565,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANT BIKINI*/}
@@ -502,21 +574,18 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={croissant_bikini}
-            width="350px" 
-            height="210px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mixto
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)"}}>
+             Cruasán bikini
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Interior: mantequilla, jamón york y queso. Contiene gluten.
+            Interior: jamón york i queso. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -526,7 +595,7 @@ export function pagebrioixEsp() {
       {/*/////////////////////////////FILA 4////////////////////////////////////// */}
 
       {/*PALMERA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
@@ -534,8 +603,7 @@ export function pagebrioixEsp() {
             <img
             src={palmera}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="250px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -546,14 +614,14 @@ export function pagebrioixEsp() {
               Palmera
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 {/*PALMERA NEGRE*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-25px"}}>
@@ -562,8 +630,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={palmera_negre}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="245px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -574,7 +641,7 @@ export function pagebrioixEsp() {
              Palmera de chocolate negro
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -582,7 +649,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*PALMERA DE XOCOLATA AMB LLET*/}
@@ -591,21 +658,18 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={palmera_llet}
-            width="330px" 
-            height="240px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-5px"}}>
              Palmera de chocolate con leche
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -616,34 +680,33 @@ export function pagebrioixEsp() {
 {/*/////////////////////////////FILA 5////////////////////////////////////// */}
 
       {/*PALMERA DE XOCO BLANCA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"50px" , marginTop:"15px"}}>
           <center>
             <img
             src={palmera_blanc}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="250px"
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-86px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
               Palmera de chocolate blanco
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten. 
+            Contiene gluten. 
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 {/*MADALENA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-25px"}}>
@@ -652,8 +715,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={madalena}
             style={{ alignSelf: "center" }}
-            width="240px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -672,7 +734,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MAGDALENA NEGRE*/}
@@ -681,10 +743,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={m_negre}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -695,7 +754,7 @@ export function pagebrioixEsp() {
              Magdalena de chocolate
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten y frutos secos.
+            Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -704,7 +763,7 @@ export function pagebrioixEsp() {
 
       {/*/////////////////////////////FILA 6////////////////////////////////////// */}
       {/*MAGDALENA DE POMA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -713,8 +772,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={m_poma}
             style={{ alignSelf: "center" }}
-            width="250px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -733,7 +791,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET*/}
@@ -742,10 +800,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={croissanet}
-            width="280px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -753,17 +808,17 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mini
+             Croissanet
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET NEGRE*/}
@@ -772,10 +827,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={crnegre}
-            width="280px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -783,10 +835,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mini de chocolate negro
+             Croissanet de xocolata negre
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -795,7 +847,7 @@ export function pagebrioixEsp() {
 
     {/*/////////////////////////////FILA 7////////////////////////////////////// */}
       {/*CROISSANET DE LLET*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -804,8 +856,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={crllet}
             style={{ alignSelf: "center" }}
-            width="250px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -813,10 +864,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mini de chocolate con leche
+             Croissanet de xocolata de llet
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -824,7 +875,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET BLANC*/}
@@ -833,10 +884,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={crblanc}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -844,17 +892,17 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mini de chocolate blanco
+             Croissanet de xocolata blanca
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET INTEGRAL*/}
@@ -863,10 +911,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={crint}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -874,10 +919,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Cruasán mini integral
+             Croissanet integral
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -886,28 +931,27 @@ export function pagebrioixEsp() {
 
       {/*/////////////////////////////FILA 8////////////////////////////////////// */}
       {/*PALMERETA INTEGRAL*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"20px"}}>
+        <CardContent style={{padding:"50px", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={pint}
             style={{ alignSelf: "center" }}
-            width="260px" 
-            height="210px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-50px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Palmerita integral
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-35px"}}>
+              Palmereta integral
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -915,7 +959,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*PASTISSET DE CABELL*/}
@@ -924,28 +968,25 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={pcabell}
-            width="350px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-73px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Empanadilla de cabello de angel
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-2px"}}>
+             Pastisset de cabell d'àngel
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*TARTA DE POMA*/}
@@ -954,21 +995,18 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={tpoma}
-            width="235px" 
-            height="275px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)"}}>
-              Tarta de manzana
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"15px"}}>
+              Tarta de poma
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -977,7 +1015,7 @@ export function pagebrioixEsp() {
 
       {/*/////////////////////////////FILA 9////////////////////////////////////// */}
       {/*GALETA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -986,8 +1024,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={galeta}
             style={{ alignSelf: "center" }}
-            width="295px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -995,10 +1032,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Galleta
+              Galeta
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1006,7 +1043,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*GALETA XOC NEGRE*/}
@@ -1015,10 +1052,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={gnegre}
-            width="295px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1026,17 +1060,17 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Galleta de chocolate negro
+             Galeta de xocolata negre
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*GALETA XOCO LLET*/}
@@ -1045,10 +1079,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={gllet}
-            width="295px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1056,10 +1087,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Galleta de chocolate con leche
+             Galeta de xocolata de llet
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1068,7 +1099,7 @@ export function pagebrioixEsp() {
 
       {/*/////////////////////////////FILA 10////////////////////////////////////// */}
       {/*DONUT*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -1077,8 +1108,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={donut}
             style={{ alignSelf: "center" }}
-            width="280px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1086,10 +1116,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Dónut
+              Dònut
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1097,7 +1127,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*DONUT XOCOLATA NEGRE*/}
@@ -1106,10 +1136,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={dnegre}
-            width="280px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1117,17 +1144,17 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Dónut de chocolate negro
+             Dònut de xocolata negre
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*DONUT XOCO BLANCA*/}
@@ -1136,10 +1163,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={dblanc}
-            width="290px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1147,10 +1171,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Dónut de chocolate blanco
+             Dònut de xocolata de blanca
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1159,7 +1183,7 @@ export function pagebrioixEsp() {
 
       {/*/////////////////////////////FILA 11////////////////////////////////////// */}
       {/*XUXO*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"40px"}}>
@@ -1168,19 +1192,18 @@ export function pagebrioixEsp() {
             className="IND"
             src={xuxo}
             style={{ alignSelf: "center" }}
-            width="280px" 
-            height="165px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-35px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Chucho
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-95px" }}>
+              Xuxo
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1188,7 +1211,7 @@ export function pagebrioixEsp() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*Ensaimada*/}
@@ -1197,10 +1220,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={ensaimada}
-            width="300px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1211,7 +1231,7 @@ export function pagebrioixEsp() {
              Ensaimada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1227,10 +1247,7 @@ export function pagebrioixEsp() {
             <img
             className="IND"
             src={canya}
-            width="350px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1238,10 +1255,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Caña de chocolate
+             Canya de xocolata
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1276,7 +1293,7 @@ export function pagebrioixEsp() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Panes artesanales</a> 
+          <a>Pans artesanals</a> 
           </p>
         </Card>
       </Grid>
@@ -1292,19 +1309,18 @@ export function pagebrioixEsp() {
             <img
             src={cibada}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Pan de avena
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"25px" }}>
+              Pa de civada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-                Contiene gluten.
+                Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1320,19 +1336,18 @@ export function pagebrioixEsp() {
             className="IND"
             src={multicereals}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pan de multicereales
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
+            Pa de multicereals
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1351,19 +1366,18 @@ export function pagebrioixEsp() {
             <img
             src={serrai}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Pan de serraceno
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+              Pa de serraí
            </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten.
+              Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1379,19 +1393,18 @@ export function pagebrioixEsp() {
             className="IND"
             src={xia}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pan de chía
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            Pa de xia
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1409,8 +1422,7 @@ export function pagebrioixEsp() {
             <img
             src={alemany}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1418,10 +1430,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Pan alemán
+              Pa alemany
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten. 
+              Conté gluten. 
             </p>
             </center>
           </CardContent>
@@ -1437,8 +1449,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={espelta}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1446,10 +1457,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pan de espelta
+            Pa d'espelta
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1467,8 +1478,7 @@ export function pagebrioixEsp() {
             <img
             src={montau}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1476,10 +1486,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-60px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Montau (Pan de payés)
+              Montau (Pa de pagès)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten.            
+              Conté gluten.            
             </p>
             </center>
           </CardContent>
@@ -1495,8 +1505,7 @@ export function pagebrioixEsp() {
             className="IND"
             src={vidre}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1504,10 +1513,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-             Pan de cristal
+             Pa de vidre
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten.
+             Conté gluten.
             </p>
             </center>
           </CardContent>
@@ -1540,7 +1549,7 @@ export function pagebrioixEsp() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Pastas de té</a> 
+          <a>Pasta de te</a> 
           </p>
         </Card>
       </Grid>
@@ -1556,8 +1565,7 @@ export function pagebrioixEsp() {
             <img
             src={macarons}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="300px"
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1568,7 +1576,7 @@ export function pagebrioixEsp() {
              Macarons
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            | Marrón: chocolate | Amarillo: limón | Rojo: fresa | Lila: confitura | Verde: praliné |
+            | Marró: xocolata | Groc: llimona | Vermell: maduixa | Lila: confitura | Verd: praliné |
             </p>
             </center>
           </CardContent>
