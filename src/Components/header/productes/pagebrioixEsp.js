@@ -808,10 +808,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Croissanet
+             Cruasán mini
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+             Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -835,10 +835,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Croissanet de xocolata negre
+             Cruasán mini de chocolate negro
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -864,10 +864,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Croissanet de xocolata de llet
+             Cruasán mini de chocolate con leche
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -892,10 +892,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Croissanet de xocolata blanca
+             Cruasán mini de chocolate blanco
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -919,10 +919,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Croissanet integral
+             Cruasán mini integral
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -948,10 +948,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-50px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-35px"}}>
-              Palmereta integral
+              Palmerita integral
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -976,10 +976,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-73px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-2px"}}>
-             Pastisset de cabell d'àngel
+             Empanadilla de cabello de angel
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1003,10 +1003,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"15px"}}>
-              Tarta de poma
+              Tarta de manzana
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+              Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1032,10 +1032,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Galeta
+              Galleta
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+              Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1060,10 +1060,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Galeta de xocolata negre
+             Galleta de chocolate negro
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1087,10 +1087,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Galeta de xocolata de llet
+             Galleta de chocolate con leche
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+             Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1116,10 +1116,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Dònut
+              Dónut
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1144,10 +1144,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Dònut de xocolata negre
+             Dónut de chocolate negro
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1171,10 +1171,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Dònut de xocolata de blanca
+             Dónut de chocolate blanco
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1200,10 +1200,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-35px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-95px" }}>
-              Xuxo
+              Chucho
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1231,7 +1231,7 @@ export function pagebrioixEsp() {
              Ensaimada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1255,10 +1255,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Canya de xocolata
+             Caña de chocolate
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1293,7 +1293,7 @@ export function pagebrioixEsp() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Pans artesanals</a> 
+          <a>Panes artesanales</a> 
           </p>
         </Card>
       </Grid>
@@ -1317,10 +1317,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"25px" }}>
-              Pa de civada
+              Pan de avena
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-                Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1344,10 +1344,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
-            Pa de multicereals
+            Pan de multicereales
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1374,10 +1374,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Pa de serraí
+              Pan de serraceno
            </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1401,10 +1401,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Pa de xia
+            Pa de chía
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1430,10 +1430,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Pa alemany
+              Pa alemán
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Conté gluten. 
+            Contiene gluten. 
             </p>
             </center>
           </CardContent>
@@ -1457,10 +1457,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pa d'espelta
+            Pa de espelta
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1486,10 +1486,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-60px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Montau (Pa de pagès)
+              Montau (Pan de payés)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Conté gluten.            
+              Contiene gluten.            
             </p>
             </center>
           </CardContent>
@@ -1513,10 +1513,10 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-             Pa de vidre
+             Pan de cristal
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Conté gluten.
+            Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1549,7 +1549,7 @@ export function pagebrioixEsp() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Pasta de te</a> 
+          <a>Pastas de té</a> 
           </p>
         </Card>
       </Grid>
@@ -1576,7 +1576,7 @@ export function pagebrioixEsp() {
              Macarons
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            | Marró: xocolata | Groc: llimona | Vermell: maduixa | Lila: confitura | Verd: praliné |
+            | Marrón: chocolate | Amarillo: limón | Rojo: fresa | Lila: confitura | Verde: praliné |
             </p>
             </center>
           </CardContent>
