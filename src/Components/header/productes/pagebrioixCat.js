@@ -171,7 +171,7 @@ const estilos = makeStyles({
     "@media (max-width:1400px)": {
       //lg
       width:"340px" ,
-      height:"280px",
+      height:"230px",
       marginLeft: "auto",
       marginRight: "auto"
     },
@@ -179,14 +179,14 @@ const estilos = makeStyles({
     "@media (max-width:1000px)": {
       //md
       width:"340px" ,
-      height:"280px",
+      height:"230px",
       marginLeft: "auto",
       marginRight: "auto"
     },
     "@media (max-width:600px)": {
       //sm
       width: "300px",
-      height:"240px",
+      height:"200px",
       marginLeft: "auto",
       marginRight: "auto"
     },
@@ -318,7 +318,7 @@ export function pagebrioixCat() {
      {/*/////////////////////////////FILA 1////////////////////////////////////// */}
 
       {/*BRETZEL*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
@@ -344,7 +344,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
       {/*BRETZEL XOCO NEGRE*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}}>
@@ -372,7 +372,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BRETZEL XOCO LLET*/}
@@ -408,7 +408,7 @@ export function pagebrioixCat() {
 
 
 {/*BRETZEL XOC BLANCA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"2px"}}>
@@ -435,7 +435,7 @@ export function pagebrioixCat() {
         </Grid>
 
 {/*CROISSANT*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}} >
@@ -463,7 +463,7 @@ export function pagebrioixCat() {
         </Grid>
 
 {/*CROISSANT NEGRE*/}
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}}>
@@ -492,7 +492,7 @@ export function pagebrioixCat() {
       {/*/////////////////////////////FILA 3////////////////////////////////////// */}
 
       {/*CROISSANT LLET*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
@@ -518,7 +518,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 {/*CROISSANT BLANC*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px"}}>
@@ -527,7 +527,7 @@ export function pagebrioixCat() {
             className="IND"
             src={croissant_blanc}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -546,7 +546,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANT BIKINI*/}
@@ -555,7 +555,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={croissant_bikini}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -576,7 +576,7 @@ export function pagebrioixCat() {
       {/*/////////////////////////////FILA 4////////////////////////////////////// */}
 
       {/*PALMERA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
@@ -584,7 +584,7 @@ export function pagebrioixCat() {
             <img
             src={palmera}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -602,7 +602,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 {/*PALMERA NEGRE*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-25px"}}>
@@ -611,7 +611,7 @@ export function pagebrioixCat() {
             className="IND"
             src={palmera_negre}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -630,7 +630,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*PALMERA DE XOCOLATA AMB LLET*/}
@@ -639,7 +639,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={palmera_llet}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -661,7 +661,7 @@ export function pagebrioixCat() {
 {/*/////////////////////////////FILA 5////////////////////////////////////// */}
 
       {/*PALMERA DE XOCO BLANCA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
@@ -669,7 +669,7 @@ export function pagebrioixCat() {
             <img
             src={palmera_blanc}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -687,7 +687,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 {/*MADALENA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-25px"}}>
@@ -715,7 +715,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MAGDALENA NEGRE*/}
@@ -744,7 +744,7 @@ export function pagebrioixCat() {
 
       {/*/////////////////////////////FILA 6////////////////////////////////////// */}
       {/*MAGDALENA DE POMA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -772,7 +772,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET*/}
@@ -799,7 +799,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET NEGRE*/}
@@ -828,7 +828,7 @@ export function pagebrioixCat() {
 
     {/*/////////////////////////////FILA 7////////////////////////////////////// */}
       {/*CROISSANET DE LLET*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -856,7 +856,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET BLANC*/}
@@ -883,7 +883,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*CROISSANET INTEGRAL*/}
@@ -912,7 +912,7 @@ export function pagebrioixCat() {
 
       {/*/////////////////////////////FILA 8////////////////////////////////////// */}
       {/*PALMERETA INTEGRAL*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"20px"}}>
@@ -940,7 +940,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*PASTISSET DE CABELL*/}
@@ -967,7 +967,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*TARTA DE POMA*/}
@@ -996,7 +996,7 @@ export function pagebrioixCat() {
 
       {/*/////////////////////////////FILA 9////////////////////////////////////// */}
       {/*GALETA*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -1024,7 +1024,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*GALETA XOC NEGRE*/}
@@ -1051,7 +1051,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*GALETA XOCO LLET*/}
@@ -1080,7 +1080,7 @@ export function pagebrioixCat() {
 
       {/*/////////////////////////////FILA 10////////////////////////////////////// */}
       {/*DONUT*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"-10px"}}>
@@ -1108,7 +1108,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*DONUT XOCOLATA NEGRE*/}
@@ -1135,7 +1135,7 @@ export function pagebrioixCat() {
         </Card>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*DONUT XOCO BLANCA*/}
@@ -1164,7 +1164,7 @@ export function pagebrioixCat() {
 
       {/*/////////////////////////////FILA 11////////////////////////////////////// */}
       {/*XUXO*/}
-      <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+      <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"50px", marginTop:"40px"}}>
@@ -1192,7 +1192,7 @@ export function pagebrioixCat() {
         </Grid>
 
 
-        <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
+        <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*Ensaimada*/}
