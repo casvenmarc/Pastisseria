@@ -976,7 +976,7 @@ export function pagebrioixEsp() {
           <CardContent style={{padding:"50px" , marginTop:"-73px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-2px"}}>
-             Empanadilla de cabello de angel
+             Empanadilla de cabello
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
             Contiene gluten.
