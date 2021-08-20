@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+//Obtengo el año actual:
+const today = new Date();
+
 export default function Footereng() {
   const classes = useStyles();
   return (
@@ -44,7 +47,7 @@ export default function Footereng() {
                 color: "white",
               }}
             >
-              <CopyrightIcon fontSize="small" /> &nbsp; 2021, Pastisseria Marcel
+              <CopyrightIcon fontSize="small" /> &nbsp; {today.getFullYear()}, Pastisseria Marcel
             </p>
           </Card>
         </Grid>

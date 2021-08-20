@@ -20,6 +20,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const today = new Date();
+
 export default function Footer() {
   const classes = useStyles();
   return (
@@ -44,7 +46,7 @@ export default function Footer() {
                 color: "white",
               }}
             >
-              <CopyrightIcon fontSize="small" /> &nbsp; 2021, Pastisseria Marcel
+              <CopyrightIcon fontSize="small" /> &nbsp; {today.getFullYear()}, Pastisseria Marcel
             </p>
           </Card>
         </Grid>
