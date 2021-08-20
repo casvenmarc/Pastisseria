@@ -164,6 +164,34 @@ const estilos = makeStyles({
     },
 
     borderRadius: 0,
+  },
+
+  BRIOIX_v2: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"340px" ,
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"340px" ,
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "300px",
+      height:"240px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    borderRadius: 0,
   }
 
 
@@ -416,7 +444,7 @@ export function pagebrioixCat() {
             className="IND"
             src={croissant}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -443,7 +471,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={croissant_negre}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
@@ -472,7 +500,7 @@ export function pagebrioixCat() {
             <img
             src={croissant_llet}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.BRIOIX_v2}
             />
             </center>
         </CardContent>
