@@ -159,7 +159,7 @@ const estilos = makeStyles({
       //sm
       width: "300px",
       height:"260px",
-      marginLeft: "auto",
+      marginLeft: "0px",
       marginRight: "auto"
     },
 
@@ -187,7 +187,7 @@ const estilos = makeStyles({
       //sm
       width: "300px",
       height:"200px",
-      marginLeft: "auto",
+      marginLeft: "0px",
       marginRight: "auto"
     },
 
