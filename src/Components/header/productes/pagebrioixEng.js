@@ -1293,7 +1293,7 @@ export function pagebrioixEng() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Panes artesanales</a> 
+          <a>Artisanal bread</a> 
           </p>
         </Card>
       </Grid>
@@ -1317,10 +1317,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"25px" }}>
-              Pan de avena
+              Oat bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1344,10 +1344,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
-            Pan de multicereales
+            Cereals bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1374,10 +1374,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Pan de serraceno
+              Saracen bread
            </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1401,10 +1401,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-            Pa de chía
+             Chia bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1430,10 +1430,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Pa alemán
+              German bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            Contiene gluten. 
+             Contains gluten. 
             </p>
             </center>
           </CardContent>
@@ -1457,10 +1457,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-            Pa de espelta
+            Spelt bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1486,10 +1486,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-60px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Montau (Pan de payés)
+              Montau (round bread)
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten.            
+              Contains gluten.            
             </p>
             </center>
           </CardContent>
@@ -1513,10 +1513,10 @@ export function pagebrioixEng() {
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-             Pan de cristal
+             Crystal bread
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-            Contiene gluten.
+            Contains gluten.
             </p>
             </center>
           </CardContent>
@@ -1549,7 +1549,7 @@ export function pagebrioixEng() {
           }}
         >
           <p className={classes.categories} style={{fontSize:"40px", marginTop:"40px"}} style={{backgroundColor: '#ffffff'}}>
-          <a>Pastas de té</a> 
+          <a>Tea pastes</a> 
           </p>
         </Card>
       </Grid>
@@ -1576,7 +1576,7 @@ export function pagebrioixEng() {
              Macarons
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-            | Marrón: chocolate | Amarillo: limón | Rojo: fresa | Lila: confitura | Verde: praliné |
+            | Brown: chocolate | Yellow: lemon | Red: strawberry | Purple: jam | Green: praline |
             </p>
             </center>
           </CardContent>
