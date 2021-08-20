@@ -347,7 +347,7 @@ export function pagebrioixCat() {
       <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"50px",marginTop:"-5px"}}>
           <center>
             <img
             className="IND"
@@ -360,7 +360,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-5px"}}>
              Bretzel de xocolata negre.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
