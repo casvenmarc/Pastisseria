@@ -215,7 +215,7 @@ const estilos = makeStyles({
       //sm
       width: "420px",
       height:"280px",
-      marginLeft: "-5px",
+      marginLeft: "-10px",
       marginRight: "auto"
     },
 
