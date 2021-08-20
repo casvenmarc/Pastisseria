@@ -159,7 +159,7 @@ const estilos = makeStyles({
       //sm
       width: "300px",
       height:"260px",
-      marginLeft: "0px",
+      marginLeft: "-5px",
       marginRight: "auto"
     },
 
@@ -187,22 +187,40 @@ const estilos = makeStyles({
       //sm
       width: "300px",
       height:"200px",
-      marginLeft: "0px",
+      marginLeft: "-5px",
+      marginRight: "auto"
+    },
+
+    borderRadius: 0,
+  },
+
+  PA: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"520px" ,
+      height:"320px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"520px" ,
+      height:"320px",
+      marginLeft: "auto",
+      marginRight: "auto"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "420px",
+      height:"280px",
+      marginLeft: "-5px",
       marginRight: "auto"
     },
 
     borderRadius: 0,
   }
-
-
-
-
-
-
-
-
-
-
 
 });
 
@@ -423,7 +441,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
               Bretzel de xocolata blanca
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -478,7 +496,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-40px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
              Croissant de xocolata negre
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -507,7 +525,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-70px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
               Croissant de xocolata de llet.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -534,7 +552,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-10px"}}>
              Croissant de xocolata blanca
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -562,7 +580,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)"}}>
              Croissant bikini
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -646,7 +664,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-5px"}}>
              Palmera de xocolata de llet
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -664,7 +682,7 @@ export function pagebrioixCat() {
       <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"50px" , marginTop:"15px"}}>
           <center>
             <img
             src={palmera_blanc}
@@ -676,7 +694,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-86px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
               Palmera de xocolata blanca
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -915,7 +933,7 @@ export function pagebrioixCat() {
       <Grid item xs={12} sm={12} md={6} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"20px"}}>
+        <CardContent style={{padding:"50px", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -928,7 +946,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-50px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-35px"}}>
               Palmereta integral
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -956,7 +974,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-73px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",marginTop:"-2px"}}>
              Pastisset de cabell d'àngel
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -983,7 +1001,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"15px"}}>
               Tarta de poma
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -1180,7 +1198,7 @@ export function pagebrioixCat() {
           
           <CardContent style={{padding:"50px" , marginTop:"-35px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-95px" }}>
               Xuxo
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -1290,14 +1308,14 @@ export function pagebrioixCat() {
             <img
             src={cibada}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"25px" }}>
               Pa de civada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -1317,14 +1335,14 @@ export function pagebrioixCat() {
             className="IND"
             src={multicereals}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"10px"}}>
             Pa de multicereals
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -1347,14 +1365,14 @@ export function pagebrioixCat() {
             <img
             src={serrai}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
               Pa de serraí
            </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -1374,14 +1392,14 @@ export function pagebrioixCat() {
             className="IND"
             src={xia}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Pa de xia
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
@@ -1403,7 +1421,7 @@ export function pagebrioixCat() {
             <img
             src={alemany}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1430,7 +1448,7 @@ export function pagebrioixCat() {
             className="IND"
             src={espelta}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1459,7 +1477,7 @@ export function pagebrioixCat() {
             <img
             src={montau}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1486,7 +1504,7 @@ export function pagebrioixCat() {
             className="IND"
             src={vidre}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
@@ -1546,7 +1564,7 @@ export function pagebrioixCat() {
             <img
             src={macarons}
             style={{ alignSelf: "center" }}
-            className={classes.BRIOIX}
+            className={classes.PA}
             />
             </center>
         </CardContent>
