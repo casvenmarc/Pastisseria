@@ -29,6 +29,10 @@ import Avis_legal_Esp from "./Components/footer/Avis_legal_Esp";
 import Avis_legal_Eng from "./Components/footer/Avis_legal_Eng";
 
 import Construccio from "./Components/header/Building/Construccio";
+import ConstruccioEsp from "./Components/header/Building/ConstruccioEsp";
+import ConstruccioEng from "./Components/header/Building/ConstruccioEng";
+
+
 
 import Footer from "./Components/footer/Footer";
 import Footeresp from "./Components/footer/Footeresp";
@@ -119,6 +123,8 @@ class App extends Component {
             <Route path="/Products/Productes/pagepastEsp" component={PagepastEsp} />
             <Route path="/Products/Productes/pagepastCat" component={PagepastCat} />
             <Route path="/Building/Construccio" component={Construccio} />
+            <Route path="/Building/ConstruccioEsp" component={ConstruccioEsp} />
+            <Route path="/Building/ConstruccioEng" component={ConstruccioEng} />
             <Route path="/Home/Home_esp" component={Homeesp} />
             <Route path="/Home/Home_eng" component={Homeeng} />
             <Route path="/Products/Productes" component={Productes} />

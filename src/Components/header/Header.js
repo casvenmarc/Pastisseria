@@ -240,7 +240,7 @@ export default function PersistentDrawerRight() {
                   style={{ color: grey[50] }}
                   className={classes.List}
                   onClick={() => {
-      
+                    history.push("/Building/Construccio")
                     window.scrollTo(0, 0)
                     handleDrawerClose()
                   }}
@@ -260,7 +260,7 @@ export default function PersistentDrawerRight() {
                   style={{ color: grey[50] }}
                   className={classes.List}
                   onClick={() => {
- 
+                    history.push("/Building/Construccio")
                     window.scrollTo(0, 0)
                     handleDrawerClose()
                   }}

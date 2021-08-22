@@ -4,9 +4,7 @@ import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
 import BuildIcon from '@material-ui/icons/Build';
 import Typography from "@material-ui/core/Typography";
-
 import WarningIcon from '@material-ui/icons/Warning';
-
 
 
 const useStyles = makeStyles({
@@ -34,7 +32,7 @@ const useStyles = makeStyles({
 
 });
 
-export function Construccio() {
+export function ConstruccioEng() {
   const classes = useStyles();
 
   return (
@@ -44,20 +42,17 @@ export function Construccio() {
 
         <Card className={classes.root} elevation={1}>
           <Typography className={classes.title}>
-            <h2>Actualment aquesta secció del web es troba en construcció. <br/> Aviat l'habilitarem!</h2>
+            <h2>This section of the website is currently under construction. <br/> We will soon enable it!</h2>
          
           <WarningIcon style={{ color: "#3B0404", fontSize: 50, verticalAlign: 'middle', display: 'inline-flex'}} />
           <BuildIcon style={{ color: "#3B0404", fontSize: 50, verticalAlign: 'middle',  display: 'inline-flex'} } />
           </Typography>
         </Card>
-        
+
       </Grid>
 
-
- 
-      
     </Grid>
   );
 }
 
-export default Construccio;
+export default ConstruccioEng;

@@ -218,9 +218,11 @@ export function Producteseng() {
             className={classes.im4}
             src={catering}
             hoverSrc={cateringSombra}
-            // onClick={() => {
-            //     window.open(CateringEng);
-            // }}
+             onClick={() => {
+              history.push("/Building/ConstruccioEng")
+              window.scrollTo(0, 0)
+                 //window.open(CateringEng);
+             }}
           />
         </Card>
       </Grid>
