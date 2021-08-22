@@ -1,17 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
+import BuildIcon from '@material-ui/icons/Build';
+import Typography from "@material-ui/core/Typography";
+
+import grey from "@material-ui/core/colors/grey";
+import WarningIcon from '@material-ui/icons/Warning';
+
+//import grey from "@material-ui/core/colors/grey";
 
 
 const useStyles = makeStyles({
   root: {
     //minWidth: "400px",
-    marginTop: "90px",
-    marginBottom: "50px",
+    marginTop: "180px",
+    marginBottom: "200px",
     marginLeft: "20px",
     marginRight: "20px",
-    height: "550px",
+    height: "auto",
     borderRadius: 0,
     shadowColor: "#3B0404",
     border: `2px solid #3B0404`,
@@ -120,19 +127,58 @@ export function Construccio() {
 
   return (
     <Grid container style={{width: "100%" }}>
-      <Grid item xs={12} sm={12} md={6} lg={6}>
-        <Card
-              elevation={0}
-              style={{
-                textAlign: "center",
-                backgroundColor: '#ffffff'
-              }}
-            >
-              <p className={classes.subtitol} style={{backgroundColor: '#ffffff'}}>
-              Actualment aquesta secció del web es troba sota construcció.
-              </p>
+      
+
+     {/*<Grid item xs={12} sm={12} md={12}>
+         <div
+          style={{
+            marginTop: "200px",
+            marginLeft: "30px",
+            display: "flex",
+            fontFamily: "Nunito",
+            //marginLeft: "auto",
+            marginBottom: "0px",
+            justifyContent: "center",
+            alignItems: "center"
+          }}
+        >
+          <h2>Actualment aquesta secció del web es troba en construcció. <br/> Aviat l'habilitarem!</h2>
+        </div>
+      </Grid>  */}
+
+      <Grid item xs={12} sm={12} md={12}>
+
+        <Card className={classes.root} elevation={1}>
+          <Typography className={classes.title}>
+            <h2>Actualment aquesta secció del web es troba en construcció. <br/> Aviat l'habilitarem!</h2>
+         
+          <WarningIcon style={{ color: "#3B0404", fontSize: 50, verticalAlign: 'middle', display: 'inline-flex'}} />
+          <BuildIcon style={{ color: "#3B0404", fontSize: 50, verticalAlign: 'middle',  display: 'inline-flex'} } />
+          </Typography>
         </Card>
+
+        {/* <div
+            style={{
+              marginTop: "20px",
+              marginLeft: "30px",
+              display: "flex",
+              //marginLeft: "auto",
+              fontFamily: "Nunito",
+              marginBottom: "180px",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
+        <WarningIcon style={{ color: grey [900], fontSize: 50}} />
+        <BuildIcon style={{ color: grey [900], fontSize: 50}} />
+
+        </div> */}
+  
       </Grid>
+
+
+ 
+      
     </Grid>
   );
 }

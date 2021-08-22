@@ -28,7 +28,7 @@ import Avis_legal_Cat from "./Components/footer/Avis_legal_Cat";
 import Avis_legal_Esp from "./Components/footer/Avis_legal_Esp";
 import Avis_legal_Eng from "./Components/footer/Avis_legal_Eng";
 
-import Construccio from "./Components/header/productes/Construccio";
+import Construccio from "./Components/header/Building/Construccio";
 
 import Footer from "./Components/footer/Footer";
 import Footeresp from "./Components/footer/Footeresp";
@@ -112,13 +112,13 @@ class App extends Component {
             <Route path="/Footer/AvislegalEng" component={Avis_legal_Eng} />
             <Route path="/Footer/AvislegalEsp" component={Avis_legal_Esp} />
             <Route path="/Footer/AvislegalCat" component={Avis_legal_Cat} />
-            <Route path="/Products/Productes/Construccio" component={Construccio} />
             <Route path="/Products/Productes/pagebrioixEng" component={PagebrioixEng} />
             <Route path="/Products/Productes/pagebrioixEsp" component={PagebrioixEsp} />
             <Route path="/Products/Productes/pagebrioixCat" component={PagebrioixCat} />
             <Route path="/Products/Productes/pagepastEng" component={PagepastEng} />
             <Route path="/Products/Productes/pagepastEsp" component={PagepastEsp} />
             <Route path="/Products/Productes/pagepastCat" component={PagepastCat} />
+            <Route path="/Building/Construccio" component={Construccio} />
             <Route path="/Home/Home_esp" component={Homeesp} />
             <Route path="/Home/Home_eng" component={Homeeng} />
             <Route path="/Products/Productes" component={Productes} />
