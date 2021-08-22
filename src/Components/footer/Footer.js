@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+//Obtengo el año actual:
 const today = new Date();
 
 export default function Footer() {
