@@ -87,10 +87,11 @@ export function Homeesp() {
             fontSize: "16px",
             fontFamily: "Nunito",
           }}
-        > CERRADO por VACACIONES del 16 al 23 de Agosto (ambos inclusive).
-          <br />
-          <u>El resto de los días:</u>
-          <br />
+        > 
+        {/* CERRADO por VACACIONES del 16 al 23 de Agosto (ambos inclusive).
+           <br />
+           <u>El resto de los días:</u>
+           <br /> */}
           
          <div
             style={{

@@ -88,10 +88,10 @@ export function Home() {
             fontSize: "16px",
             fontFamily: "Nunito",
           }}>
-          TANCAT per VACANCES del 16 al 23 d'Agost (ambdós inclosos).
+          {/* TANCAT per VACANCES del 16 al 23 d'Agost (ambdós inclosos).
           <br />
           <u>La resta dels dies:</u>
-          <br />
+          <br /> */}
           
             <div
             style={{

@@ -86,10 +86,10 @@ export function Homeeng() {
             fontSize: "16px",
             fontFamily: "Nunito",
           }}>
-          CLOSED for HOLIDAYS from August 16 th to 23 rd (inclusive).
+          {/* CLOSED for HOLIDAYS from August 16 th to 23 rd (inclusive).
           <br />
           <u>Rest of the days:</u>
-          <br />
+          <br /> */}
           
             <div
             style={{
